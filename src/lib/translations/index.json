@@ -1,0 +1,90 @@
+{
+  "pt-BR": {
+    "common": {
+      "home": "Início",
+      "help": "Ajuda",
+      "pricing": "Preços",
+      "signUp": "Criar Conta",
+      "signIn": "Entrar",
+      "language": "Idioma",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "delete": "Deletar",
+      "edit": "Editar",
+      "back": "Voltar",
+      "loading": "Carregando...",
+      "error": "Erro",
+      "success": "Sucesso"
+    },
+    "pricing_page": {
+      "title": "Preços",
+      "heading": "Escolha seu plano",
+      "subtitle": "Atlas Core oferece planos para atletas, coaches, nutricionistas e clínicos. Comece grátis, sem cartão de crédito.",
+      "athlete": "Para Atletas",
+      "professional": "Para Profissionais",
+      "professionalDesc": "Prescreva e acompanhe clientes com dados em tempo real.",
+      "backToApp": "← Voltar ao app",
+      "footer": "Todos os planos incluem 7 dias grátis.",
+      "footerPayment": "Stripe garante segurança em suas transações."
+    },
+    "clinician": {
+      "dashboard": "Dashboard Clínico",
+      "patients": "Pacientes",
+      "addPatient": "Adicionar Paciente",
+      "patientDetails": "Detalhes do Paciente",
+      "labExams": "Exames Laboratoriais",
+      "protocols": "Protocolos",
+      "symptoms": "Sintomas",
+      "history": "Histórico",
+      "export": "Exportar Relatório",
+      "adherence": "Aderência",
+      "measurements": "Medições",
+      "activePatients": "Pacientes Ativos",
+      "noPatients": "Nenhum paciente vinculado"
+    }
+  },
+  "en-US": {
+    "common": {
+      "home": "Home",
+      "help": "Help",
+      "pricing": "Pricing",
+      "signUp": "Sign Up",
+      "signIn": "Sign In",
+      "language": "Language",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success"
+    },
+    "pricing_page": {
+      "title": "Pricing",
+      "heading": "Choose your plan",
+      "subtitle": "Atlas Core offers plans for athletes, coaches, nutritionists and clinicians. Start free, no credit card required.",
+      "athlete": "For Athletes",
+      "professional": "For Professionals",
+      "professionalDesc": "Prescribe and track clients with real-time data.",
+      "backToApp": "← Back to app",
+      "footer": "All plans include 7 free days.",
+      "footerPayment": "Stripe ensures secure transactions."
+    },
+    "clinician": {
+      "dashboard": "Clinician Dashboard",
+      "patients": "Patients",
+      "addPatient": "Add Patient",
+      "patientDetails": "Patient Details",
+      "labExams": "Lab Exams",
+      "protocols": "Protocols",
+      "symptoms": "Symptoms",
+      "history": "History",
+      "export": "Export Report",
+      "adherence": "Adherence",
+      "measurements": "Measurements",
+      "activePatients": "Active Patients",
+      "noPatients": "No patients linked"
+    }
+  }
+}

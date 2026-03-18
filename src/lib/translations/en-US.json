@@ -1,0 +1,541 @@
+{
+  "common": {
+    "appName": "Atlas Core",
+    "back": "← Back to app",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "skip": "Skip for now →",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "termsOfUse": "terms of service"
+  },
+  "landing": {
+    "nav": {
+      "howItWorks": "How it works",
+      "pricing": "Plans",
+      "faq": "FAQ",
+      "login": "Sign in",
+      "signup": "Sign up"
+    },
+    "hero": {
+      "badge": "Welcome",
+      "title": "Stop the chaos.\nTake control.",
+      "subtitle": "Workouts, nutrition, labs, measurements, protocols — all in one place. No screenshots. No confusion. One dashboard for your real progress.",
+      "benefit1": "See real progress",
+      "benefit2": "Data doesn't lie",
+      "benefit3": "Share with confidence",
+      "cta": "Start free",
+      "learnMore": "Learn more"
+    },
+    "problem": {
+      "label": "The Problem",
+      "title": "Everything scattered\nacross different apps.",
+      "subtitle": "Workouts in one app, nutrition in another, labs in email PDFs, measurements in photos. Your history? Nowhere. You never know if you're really making progress.",
+      "items": {
+        "workout": "Workouts",
+        "workoutWhere": "in your gym app",
+        "diet": "Nutrition",
+        "dietWhere": "in MyFitnessPal",
+        "labs": "Lab results",
+        "labsWhere": "in email PDFs",
+        "measurements": "Measurements",
+        "measurementsWhere": "in photo files",
+        "protocols": "Protocols",
+        "protocolsWhere": "in loose notes",
+        "history": "History",
+        "historyWhere": "nowhere"
+      }
+    },
+    "solution": {
+      "label": "The Real Solution",
+      "title": "Centralizing everything\nchanges how you see progress.",
+      "subtitle": "Atlas Core isn't another app. It's the operating system that brings together training, nutrition, labs, measurements, and protocols in one view. Real history. Real context. Data that actually matters.",
+      "gains": {
+        "dashboard": {
+          "title": "Your entire dashboard",
+          "desc": "One place to see today's priorities: upcoming workout, next meal, active protocols, important alerts. No switching between 5 apps."
+        },
+        "data": {
+          "title": "Real progress data",
+          "desc": "See exactly how well you're following your plan — diet, training, measurements, labs. No guessing. No assumptions. Cold data that tells the truth."
+        },
+        "score": {
+          "title": "Real adherence score",
+          "desc": "Daily rating based on workouts completed, meals logged, sleep, hydration. You see where you're slipping and fix it. Not gamification — real feedback."
+        },
+        "trends": {
+          "title": "Progress visible in charts",
+          "desc": "Weight, body fat, measurements, strength — all in charts showing trends. You see changes you wouldn't notice day-to-day."
+        },
+        "ai": {
+          "title": "AI that understands your context",
+          "desc": "Atlas AI reads your actual workouts, meals, labs, history. No generic assumptions — insights based on YOUR real data."
+        },
+        "team": {
+          "title": "Your coach/doctor in the loop",
+          "desc": "Share your data with anyone. Coach sees real adherence. Doctor sees lab history. No WhatsApp. No screenshots. No confusion."
+        }
+      }
+    },
+    "forWho": {
+      "label": "For Whom",
+      "title": "Built for people who want\ndata-driven progress.",
+      "subtitle": "If you measure by data, not feeling. If you want to know exactly what works.",
+      "athlete": {
+        "title": "Athlete & enthusiast",
+        "desc": "You train consistently, nail your diet, check your labs. But it's all scattered. Atlas Core brings it together.",
+        "features": [
+          "Complete workout + nutrition logging",
+          "Progress tracking with photos & measurements",
+          "Supplement stock alerts",
+          "AI insights with real context"
+        ]
+      },
+      "coach": {
+        "title": "Coach & trainer",
+        "desc": "You manage multiple athletes. You need to track adherence, prescribe training, and see progress without relying on screenshots.",
+        "features": [
+          "Athlete dashboard with adherence",
+          "Training + nutrition prescription",
+          "Check-in tracking",
+          "Exportable reports"
+        ]
+      },
+      "nutritionist": {
+        "title": "Nutritionist",
+        "desc": "You coach clients through nutrition. View meals, measurements, photos, and create meal plans with AI or manually.",
+        "features": [
+          "Client dashboard",
+          "Meal history & trends",
+          "Meal plan prescription",
+          "Nutrition report exports"
+        ]
+      },
+      "clinician": {
+        "title": "Doctor & clinician",
+        "desc": "You prescribe protocols and need data to make decisions. Labs, measurements, and usage history all in one place.",
+        "features": [
+          "Complete lab history",
+          "Protocol monitoring",
+          "Body composition tracking",
+          "Clinical report exports"
+        ]
+      }
+    },
+    "system": {
+      "title": "Not just workouts.\nA complete system.",
+      "items": [
+        {
+          "before": "Workouts only",
+          "after": "Workouts + recovery + adherence"
+        },
+        {
+          "before": "Nutrition only",
+          "after": "Nutrition + protocols + context"
+        },
+        {
+          "before": "Labs only",
+          "after": "Labs + history + trends"
+        },
+        {
+          "before": "Generic AI",
+          "after": "AI powered by your real data"
+        },
+        {
+          "before": "Tracking alone",
+          "after": "Shared history with professionals"
+        },
+        {
+          "before": "Pretty app",
+          "after": "System that solves chaos"
+        }
+      ]
+    },
+    "pricing": {
+      "label": "Plans",
+      "title": "Start free,\nupgrade when ready.",
+      "subtitle": "No credit card. No commitment. 7 free days on paid plans. Cancel anytime."
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "Does Atlas Core replace my coach or nutritionist?",
+          "a": "No. Atlas Core organizes your data and makes working with professionals easier — it doesn't replace them. Actually, it works best with a coach or doctor on your team. You both see the same data. No screenshots needed."
+        },
+        {
+          "q": "Can I use it with my coach, nutritionist, and doctor at once?",
+          "a": "Absolutely. Atlas Core is built for this. Each professional sees only what you allow them to see. Everyone views your real history together."
+        },
+        {
+          "q": "What's included in the Free plan?",
+          "a": "Complete workout + nutrition logging, measurement tracking, daily check-ins, 30 days of history, profile and settings. Free never expires — it's yours to start."
+        },
+        {
+          "q": "What's different in Pro ($14.99/month)?",
+          "a": "AI-powered meal + workout generation, full Atlas AI access, complete lab tracking, unlimited progress photos, 1 year history, advanced analytics, and PDF/CSV exports."
+        },
+        {
+          "q": "What's different in Performance ($29.99/month)?",
+          "a": "Everything in Pro, plus intelligent protocol tracking with half-life curves, stock alerts, premium reports, deep dashboards, and unlimited history. For complete control."
+        },
+        {
+          "q": "Does it work on mobile?",
+          "a": "100%. Atlas Core is fully responsive and optimized for iOS and Android. Same experience logging and tracking on your phone as desktop."
+        },
+        {
+          "q": "Can I export my data?",
+          "a": "Yes. Export PDF reports (with summary, metrics, measurements, labs) or CSV spreadsheets on Pro and up. Your data is yours."
+        },
+        {
+          "q": "Can I cancel anytime?",
+          "a": "Yes. No commitment, no cancellation fees. Cancel in one click. But most people stay once they see their real data trending."
+        },
+        {
+          "q": "Does the AI create workouts and meals automatically?",
+          "a": "Yes, on Pro and up. Give it your data (goals, weight, activity, preferences) and Atlas AI generates a starter plan. You refine it, your coach refines it — AI learns from real context."
+        },
+        {
+          "q": "What if I already have a plan from my coach?",
+          "a": "Perfect. Log it into Atlas Core, mark it as prescribed, and track your adherence vs. the plan. Your coach sees everything and adjusts when needed."
+        },
+        {
+          "q": "How does Atlas AI know me?",
+          "a": "It reads your real data: logged workouts, meals, measurements, labs, active protocols. No guessing. That's why the insights are actually useful and contextual."
+        }
+      ]
+    },
+    "cta": {
+      "title": "You can actually\nsee your progress.",
+      "subtitle": "Create your account free. In 2 minutes, your first dashboard is ready.",
+      "noCard": "No credit card · No commitment · Free history forever"
+    }
+  },
+  "pricing_page": {
+    "backToApp": "← Back to app",
+    "title": "Plans & pricing",
+    "heading": "Choose your plan",
+    "subtitle": "Start free. Upgrade when you need more AI, data context, and real control.",
+    "athlete": "For athletes & enthusiasts",
+    "professional": "For professionals",
+    "professionalDesc": "Separate subscriptions for coaches and clinicians. Professional access focused on client monitoring.",
+    "footer": "All paid plans include 7 free trial days · Cancel anytime · No cancellation fees",
+    "footerPayment": "Payments processed securely via Stripe",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "Free",
+        "pitch": "Start tracking.",
+        "cta": "Free plan",
+        "ctaSignup": "Create account",
+        "features": [
+          "Daily dashboard",
+          "Workout + nutrition logging",
+          "Measurement tracking",
+          "Basic protocols",
+          "Profile & settings",
+          "30-day history",
+          "Limited AI"
+        ],
+        "missing": [
+          "AI workout/meal generation",
+          "Complete lab tracking",
+          "Progress photos",
+          "Advanced analytics",
+          "PDF/CSV exports"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$14.99",
+        "period": "/month",
+        "pitch": "Everything you need daily.",
+        "trial": "7 free trial days",
+        "popular": "Most popular",
+        "cta": "Subscribe to Pro",
+        "features": [
+          "Everything in Free",
+          "AI meal generation",
+          "AI workout generation",
+          "Meal plans & training plans",
+          "Complete lab tracking",
+          "Unlimited progress photos",
+          "1-year history",
+          "Advanced analytics",
+          "Full Atlas AI",
+          "PDF & CSV exports",
+          "Stock alerts",
+          "Premium social cards"
+        ],
+        "missing": []
+      },
+      "performance": {
+        "name": "Performance",
+        "price": "$29.99",
+        "period": "/month",
+        "pitch": "Complete control hub.",
+        "trial": "7 free trial days",
+        "cta": "Subscribe to Performance",
+        "features": [
+          "Everything in Pro",
+          "Intelligent protocol tracking",
+          "Half-life curves & next dose",
+          "Advanced stock management",
+          "Premium reports",
+          "Deep dashboards",
+          "Full AI with summaries",
+          "Complete exports",
+          "Unlimited history"
+        ],
+        "missing": []
+      },
+      "coach": {
+        "name": "Coach",
+        "price": "$49.99",
+        "period": "/month",
+        "pitch": "Manage athletes effectively.",
+        "trial": "7 free trial days",
+        "note": "Per coach · up to 20 athletes",
+        "cta": "Subscribe as Coach",
+        "features": [
+          "Complete coach dashboard",
+          "Athlete management",
+          "Workout prescription",
+          "Nutrition prescription",
+          "Adherence tracking",
+          "Progress & trends",
+          "Measurements & photos",
+          "Report exports"
+        ]
+      },
+      "nutritionist": {
+        "name": "Nutritionist",
+        "price": "$39.99",
+        "period": "/month",
+        "pitch": "Monitor client nutrition.",
+        "trial": "7 free trial days",
+        "note": "Per nutritionist · up to 25 clients",
+        "cta": "Subscribe as Nutritionist",
+        "features": [
+          "Complete nutrition dashboard",
+          "Client management",
+          "Meal plan prescription",
+          "Meal history tracking",
+          "Measurement & photo access",
+          "AI meal generation",
+          "Nutrition reports",
+          "Report exports"
+        ]
+      },
+      "clinician": {
+        "name": "Clinician",
+        "price": "$64.99",
+        "period": "/month",
+        "pitch": "Consolidated clinical view.",
+        "trial": "7 free trial days",
+        "note": "Per clinician · up to 30 patients",
+        "cta": "Subscribe as Clinician",
+        "features": [
+          "Complete clinician dashboard",
+          "Patient management",
+          "Complete lab history",
+          "Body composition tracking",
+          "Protocol monitoring",
+          "Progress photos",
+          "Clinical exports",
+          "Premium clinical reports"
+        ]
+      }
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome to Atlas Core",
+      "subtitle": "Let's set up your app. Takes less than 2 minutes.",
+      "benefits": [
+        {
+          "emoji": "📍",
+          "title": "Personalized setup",
+          "desc": "The app adapts to your goals and context"
+        },
+        {
+          "emoji": "📈",
+          "title": "Single timeline",
+          "desc": "Protocols, labs, progress — all connected"
+        },
+        {
+          "emoji": "🤖",
+          "title": "Contextual AI",
+          "desc": "Insights from your data, not generic questions"
+        }
+      ],
+      "terms": "By continuing, you agree to our {termsOfUse}."
+    },
+    "goalsAndBasics": {
+      "title": "What's your main goal?",
+      "subtitle": "This sets your dashboard focus and AI recommendations",
+      "basics": "Basic info",
+      "goals": [
+        { "id": "fat_loss", "emoji": "🔥", "label": "Fat loss" },
+        { "id": "muscle_gain", "emoji": "💪", "label": "Muscle gain" },
+        { "id": "recomp", "emoji": "⚡", "label": "Body recomp" },
+        { "id": "performance", "emoji": "🏆", "label": "Performance" },
+        { "id": "health", "emoji": "❤️", "label": "General health" },
+        { "id": "longevity", "emoji": "🌱", "label": "Longevity" }
+      ],
+      "fields": {
+        "height": "Height (cm)",
+        "weight": "Current weight (kg)",
+        "sex": "Biological sex",
+        "age": "Age",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      }
+    },
+    "routine": {
+      "title": "Your training routine",
+      "subtitle": "Calibrates targets and personalizes plans",
+      "activityLevel": "Activity level",
+      "activities": [
+        { "id": "sedentary", "label": "Sedentary", "desc": "No regular exercise" },
+        { "id": "light", "label": "Light", "desc": "1–2× per week" },
+        { "id": "moderate", "label": "Moderate", "desc": "3–4× per week" },
+        { "id": "active", "label": "Active", "desc": "5–6× per week" },
+        { "id": "very_active", "label": "Very active", "desc": "2× daily / athlete" }
+      ],
+      "fields": {
+        "workoutsPerWeek": "Workouts per week",
+        "experience": "Experience",
+        "beginner": "Beginner (<1 year)",
+        "intermediate": "Intermediate (1–3 years)",
+        "advanced": "Advanced (3–6 years)",
+        "expert": "Expert (6+ years)"
+      },
+      "additionalContext": "Additional context",
+      "additional": {
+        "equipment": "Available equipment",
+        "equipmentPlaceholder": "E.g., Full gym, dumbbells, barbell...",
+        "injuries": "Injuries or limitations",
+        "injuriesPlaceholder": "E.g., Knee, lower back, shoulder...",
+        "diet": "Dietary style",
+        "dietPlaceholder": "E.g., Low-carb, carnivore, Mediterranean..."
+      }
+    },
+    "tracking": {
+      "title": "What do you want to track?",
+      "subtitle": "This builds your initial dashboard. You can enable/disable anytime.",
+      "hint": "Select as many as you want — more is always better for AI",
+      "options": [
+        { "id": "protocol", "emoji": "💉", "label": "Protocols", "desc": "Substances, doses, cycles" },
+        { "id": "body", "emoji": "📏", "label": "Body composition", "desc": "Weight, measurements, photos" },
+        { "id": "exams", "emoji": "🧬", "label": "Lab results", "desc": "Hormones, blood, health" },
+        { "id": "nutrition", "emoji": "🥗", "label": "Nutrition", "desc": "Meals and macros" },
+        { "id": "workouts", "emoji": "🏋️", "label": "Workouts", "desc": "Sessions and progress" },
+        { "id": "symptoms", "emoji": "📊", "label": "Symptoms & mood", "desc": "Daily check-ins" }
+      ]
+    },
+    "setup": {
+      "analyzing": "Analyzing your goals...",
+      "building": "Building your personalized dashboard...",
+      "configuring": "Setting up your tracking categories...",
+      "calculating": "Computing your nutrition targets...",
+      "preparing": "Preparing your timeline...",
+      "ready": "Your Atlas Core is ready.",
+      "enter": "Enter the app",
+      "configuring": "Set up my Atlas Core"
+    }
+  },
+  "today": {
+    "greeting": "Good morning",
+    "checkin": {
+      "title": "Today's check-in",
+      "subtitle": "How are you feeling?",
+      "mood": "Mood",
+      "energy": "Energy",
+      "sleep": "Sleep",
+      "water": "Water",
+      "done": "Check-in completed",
+      "register": "Register"
+    },
+    "nutrition": {
+      "label": "Nutrition",
+      "calories": "kcal",
+      "protein": "P",
+      "carbs": "C",
+      "fat": "F",
+      "noMeals": "No meals logged today"
+    },
+    "workout": {
+      "label": "Workout",
+      "exercises": "exercises",
+      "pending": "Pending",
+      "done": "Completed",
+      "none": "No workout today",
+      "viewPlan": "View workout plan →"
+    },
+    "adherence": "Adherence",
+    "excellent": "Excellent",
+    "good": "Good",
+    "focus": "Focus",
+    "continue": "Keep it up.",
+    "completePending": "Complete pending tasks.",
+    "professionals": "Linked professionals"
+  },
+  "profile": {
+    "account": "Account",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "password": "Password",
+    "edit": "Change",
+    "biometrics": "Biometrics",
+    "targets": "Targets",
+    "preferences": "Preferences",
+    "age": "Age",
+    "height": "Height (cm)",
+    "currentWeight": "Current weight (kg)",
+    "sex": "Sex",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "activityLevel": "Activity level",
+    "dietaryStyle": "Dietary style",
+    "trainingGoal": "Training goal",
+    "targetWeight": "Target weight (kg)",
+    "bodyFatGoal": "Target body fat (%)",
+    "macros": "Daily macros",
+    "calories": "Calories (kcal)",
+    "protein": "Protein (g)",
+    "carbs": "Carbohydrates (g)",
+    "fat": "Fat (g)",
+    "waterTarget": "Water (L / day)",
+    "aiTone": "Atlas AI tone",
+    "theme": "Theme",
+    "light": "Light (default)",
+    "dark": "Dark",
+    "friendly": "Friendly and encouraging",
+    "direct": "Direct and objective",
+    "motivational": "Motivational and intense",
+    "analytical": "Analytical and technical",
+    "saveProfile": "Save profile",
+    "achievements": "Achievements",
+    "subscription": "Plans and subscription",
+    "viewPlans": "View plans →",
+    "dangerZone": "Danger zone",
+    "deleteAllData": "Delete all data",
+    "deleteConfirm": "Confirm deletion",
+    "deleteConfirmMsg": "This action is irreversible. All your data will be permanently deleted.",
+    "yes": "Yes, delete everything",
+    "changeEmail": "Change email",
+    "newEmail": "New email",
+    "changePassword": "Change password",
+    "redirecting": "Redirecting…",
+    "passwordReset": "You will be taken to the login screen to reset your password."
+  }
+}

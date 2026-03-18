@@ -1,0 +1,502 @@
+[
+  {
+    "canonical_name": "Cipionato de Testosterona",
+    "aliases": ["Test C", "Deposteron"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular", "subcutaneous"],
+    "estimated_half_life_days": 8.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "1 a 2x/semana",
+    "structured_notes": "Éster de ação longa. Comum em protocolos de TRT para manter níveis estáveis."
+  },
+  {
+    "canonical_name": "Enantato de Testosterona",
+    "aliases": ["Test E", "Delatestryl"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular", "subcutaneous"],
+    "estimated_half_life_days": 4.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "2x/semana",
+    "structured_notes": "Padrão-ouro para reposição e performance. Liberação moderadamente lenta."
+  },
+  {
+    "canonical_name": "Propionato de Testosterona",
+    "aliases": ["Test P", "Prop"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular", "subcutaneous"],
+    "estimated_half_life_days": 0.8,
+    "default_unit": "mg",
+    "common_frequency_reference": "Dia sim, dia não (dsdn)",
+    "structured_notes": "Éster curto. Provoca picos rápidos de testosterona e requer aplicações frequentes."
+  },
+  {
+    "canonical_name": "Undecanoato de Testosterona",
+    "aliases": ["Nebido", "Aveed"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular", "oral"],
+    "estimated_half_life_days": 20.9,
+    "default_unit": "mg",
+    "common_frequency_reference": "Cada 8 a 12 semanas",
+    "structured_notes": "Éster ultra-longo. Utilizado para estabilidade extrema em protocolos clínicos de longo prazo."
+  },
+  {
+    "canonical_name": "Decanoato de Nandrolona",
+    "aliases": ["Deca", "Deca-Durabolin"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 12.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "1x/semana",
+    "structured_notes": "Alta afinidade anabólica e suporte articular. Pode causar supressão prolongada do eixo HPT."
+  },
+  {
+    "canonical_name": "Fenilpropionato de Nandrolona",
+    "aliases": ["NPP"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular", "subcutaneous"],
+    "estimated_half_life_days": 2.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "3x/semana",
+    "structured_notes": "Versão de ação rápida da Nandrolona. Menor retenção hídrica comparada ao decanoato."
+  },
+  {
+    "canonical_name": "Acetato de Trembolona",
+    "aliases": ["Tren A", "Finaplix"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário ou dsdn",
+    "structured_notes": "Potente androgénio. Alta incidência de efeitos colaterais neurológicos e cardiovasculares."
+  },
+  {
+    "canonical_name": "Enantato de Trembolona",
+    "aliases": ["Tren E"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 5.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "2x/semana",
+    "structured_notes": "Versão de liberação lenta da Trembolona. Difícil manejo de colaterais devido à meia-vida."
+  },
+  {
+    "canonical_name": "Drostanolona Propionato",
+    "aliases": ["Masteron", "Mast P"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário ou dsdn",
+    "structured_notes": "Derivado de DHT. Frequentemente usado para estética e controle leve de estrogénio."
+  },
+  {
+    "canonical_name": "Drostanolona Enantato",
+    "aliases": ["Mast E"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 4.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "2x/semana",
+    "structured_notes": "Versão longa do Masteron. Melhora densidade muscular sem retenção."
+  },
+  {
+    "canonical_name": "Metenolona Enantato",
+    "aliases": ["Primobolan", "Primo"],
+    "category": "hormone",
+    "administration_routes": ["intramuscular"],
+    "estimated_half_life_days": 10.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "1 a 2x/semana",
+    "structured_notes": "Considerado um dos esteroides mais seguros. Baixa toxicidade hepática e baixa aromatização."
+  },
+  {
+    "canonical_name": "Oxandrolona",
+    "aliases": ["Anavar", "Var"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.4,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário (dividido em 2 doses)",
+    "structured_notes": "17-alfa-alquilado. Baixa toxicidade comparada a outros orais, usada para força e lipólise."
+  },
+  {
+    "canonical_name": "Oximetolona",
+    "aliases": ["Hemogenin", "Anadrol"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.35,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Altamente anabólico. Pode causar retenção hídrica severa e é hepatotóxico."
+  },
+  {
+    "canonical_name": "Metandienona",
+    "aliases": ["Dianabol", "D-bol"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.2,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Aumenta rapidamente a síntese proteica e glicogenólise. Alta taxa de aromatização."
+  },
+  {
+    "canonical_name": "Estanozolol",
+    "aliases": ["Winstrol", "Winny"],
+    "category": "hormone",
+    "administration_routes": ["oral", "intramuscular"],
+    "estimated_half_life_days": 0.4,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Derivado de DHT. Conhecido por aumentar a rigidez muscular e reduzir a SHBG."
+  },
+  {
+    "canonical_name": "Anastrozol",
+    "aliases": ["Arimidex"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 2.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Conforme necessidade/E2",
+    "structured_notes": "Inibidor de aromatase não esteroidal. Utilizado para controlar níveis de estradiol."
+  },
+  {
+    "canonical_name": "Letrozol",
+    "aliases": ["Femara"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 2.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Conforme necessidade/E2",
+    "structured_notes": "Inibidor de aromatase extremamente potente. Alto risco de 'crash' nos níveis de estradiol."
+  },
+  {
+    "canonical_name": "Exemestano",
+    "aliases": ["Aromasin"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.1,
+    "default_unit": "mg",
+    "common_frequency_reference": "Conforme necessidade/E2",
+    "structured_notes": "Inibidor de aromatase suicida (irreversível). Menor efeito rebote de estrogénio."
+  },
+  {
+    "canonical_name": "Citrato de Tamoxifeno",
+    "aliases": ["Nolvadex"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 7.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "SERM. Bloqueia receptores de estrogénio no tecido mamário. Usado em TPC."
+  },
+  {
+    "canonical_name": "Citrato de Clomifeno",
+    "aliases": ["Clomid"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 5.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "SERM. Estimula a liberação de LH e FSH pela hipófise. Comum em TPC."
+  },
+  {
+    "canonical_name": "HCG (Gonadotrofina Coriônica Humana)",
+    "aliases": ["Chorulon", "Pregnyl"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous", "intramuscular"],
+    "estimated_half_life_days": 1.5,
+    "default_unit": "UI",
+    "common_frequency_reference": "2 a 3x/semana",
+    "structured_notes": "Mimetiza o LH. Mantém a função testicular e produção de esperma durante TRT."
+  },
+  {
+    "canonical_name": "Somatropina (HGH)",
+    "aliases": ["GH", "Norditropin", "Saizen"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 0.15,
+    "default_unit": "UI",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Hormona do crescimento. Melhora composição corporal, recuperação e qualidade de sono."
+  },
+  {
+    "canonical_name": "BPC-157",
+    "aliases": ["Body Protection Compound 157"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous", "oral"],
+    "estimated_half_life_days": 0.2,
+    "default_unit": "mcg",
+    "common_frequency_reference": "1 a 2x/dia",
+    "structured_notes": "Peptídeo regenerativo. Altamente eficaz na cicatrização de tendões, ligamentos e tecidos gástricos."
+  },
+  {
+    "canonical_name": "TB-500",
+    "aliases": ["Thymosin Beta-4"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 2.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "2x/semana",
+    "structured_notes": "Promove angiogénese e reparação tecidual sistémica. Usado para lesões agudas."
+  },
+  {
+    "canonical_name": "Semaglutido",
+    "aliases": ["Ozempic", "Wegovy"],
+    "category": "medication",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 7.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "1x/semana",
+    "structured_notes": "Agonista do receptor GLP-1. Potente no controle glicémico e perda de gordura."
+  },
+  {
+    "canonical_name": "Tirzepatida",
+    "aliases": ["Mounjaro"],
+    "category": "medication",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 5.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "1x/semana",
+    "structured_notes": "Agonista duplo GLP-1 e GIP. Superior ao semaglutido em perda de peso em estudos clínicos."
+  },
+  {
+    "canonical_name": "Ipamorelin",
+    "aliases": ["Ipam"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 0.08,
+    "default_unit": "mcg",
+    "common_frequency_reference": "Diário (noite)",
+    "structured_notes": "Secretagogo de GH seletivo. Não aumenta a grelina ou cortisol significativamente."
+  },
+  {
+    "canonical_name": "CJC-1295 + DAC",
+    "aliases": ["CJC DAC"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 7.0,
+    "default_unit": "mcg",
+    "common_frequency_reference": "1 a 2x/semana",
+    "structured_notes": "Análogo de GHRH de ação prolongada. Mantém níveis elevados de GH por períodos extensos."
+  },
+  {
+    "canonical_name": "Melanotan II",
+    "aliases": ["MT-2"],
+    "category": "peptide",
+    "administration_routes": ["subcutaneous"],
+    "estimated_half_life_days": 0.05,
+    "default_unit": "mcg",
+    "common_frequency_reference": "Doses esporádicas",
+    "structured_notes": "Análogo de MSH. Induz pigmentação da pele e aumenta a libido."
+  },
+  {
+    "canonical_name": "Cabergolina",
+    "aliases": ["Dostinex"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 3.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Cada 4 a 7 dias",
+    "structured_notes": "Agonista da dopamina. Utilizado para suprimir a prolactina elevada por 19-nor esteroides."
+  },
+  {
+    "canonical_name": "Finasterida",
+    "aliases": ["Proscar", "Propecia"],
+    "category": "ancillary",
+    "administration_routes": ["oral", "topical"],
+    "estimated_half_life_days": 0.25,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Inibidor da 5-alfa-redutase tipo II. Reduz a conversão de testosterona em DHT."
+  },
+  {
+    "canonical_name": "Dutasterida",
+    "aliases": ["Avodart"],
+    "category": "ancillary",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 35.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário ou 3x/semana",
+    "structured_notes": "Inibidor potente de 5-alfa-redutase tipos I e II. Meia-vida extremamente longa."
+  },
+  {
+    "canonical_name": "Tadalafil",
+    "aliases": ["Cialis"],
+    "category": "medication",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.73,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Inibidor da PDE5. Usado para disfunção erétil, saúde prostática e controle de PA."
+  },
+  {
+    "canonical_name": "Metformina",
+    "aliases": ["Glifage"],
+    "category": "medication",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.25,
+    "default_unit": "mg",
+    "common_frequency_reference": "1 a 2x/dia",
+    "structured_notes": "Sensibilizador de insulina. Frequentemente usado em protocolos de longevidade."
+  },
+  {
+    "canonical_name": "Ligandrol",
+    "aliases": ["LGD-4033"],
+    "category": "other",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "SARM. Seletivo para tecido muscular e ósseo, mas ainda pode suprimir o eixo HPT."
+  },
+  {
+    "canonical_name": "Ostarine",
+    "aliases": ["MK-2866"],
+    "category": "other",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "SARM leve. Utilizado para preservação de massa muscular em fases de restrição calórica."
+  },
+  {
+    "canonical_name": "Cardarine",
+    "aliases": ["GW-501516"],
+    "category": "other",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Agonista PPAR-delta. Melhora a oxidação de gordura e resistência cardiovascular."
+  },
+  {
+    "canonical_name": "Ibutamoren",
+    "aliases": ["MK-677"],
+    "category": "other",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Secretagogo de GH oral. Aumenta significativamente o apetite e a retenção de nitrogénio."
+  },
+  {
+    "canonical_name": "Creatina Monohidratada",
+    "aliases": ["Creapure"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": null,
+    "default_unit": "g",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Aumenta os estoques de fosfocreatina. Essencial para performance e saúde cognitiva."
+  },
+  {
+    "canonical_name": "Beta-Alanina",
+    "aliases": ["CarnoSyn"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": null,
+    "default_unit": "g",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Precursor da carnosina. Atua como tamponante de iões H+ no músculo."
+  },
+  {
+    "canonical_name": "N-Acetilcisteína",
+    "aliases": ["NAC"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.25,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Precursor de glutationa. Utilizado para suporte hepático e saúde pulmonar."
+  },
+  {
+    "canonical_name": "Ácido TUDCA",
+    "aliases": ["TUDCA"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": null,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Sal biliar hidrofílico. Altamente eficaz na proteção hepática contra colestase."
+  },
+  {
+    "canonical_name": "Coenzima Q10",
+    "aliases": ["CoQ10", "Ubiquinona"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.4,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Suporte mitocondrial e antioxidante. Crucial para saúde cardiovascular."
+  },
+  {
+    "canonical_name": "Telmisartana",
+    "aliases": ["Micardis"],
+    "category": "medication",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Bloqueador do receptor de angiotensina. Usado para controle de PA e melhora metabólica."
+  },
+  {
+    "canonical_name": "Nebivolol",
+    "aliases": ["Nebilet"],
+    "category": "medication",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Beta-bloqueador seletivo com propriedades vasodilatadoras. Cardio-protetor."
+  },
+  {
+    "canonical_name": "Mesterolona",
+    "aliases": ["Proviron"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 0.5,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Derivado de DHT oral. Aumenta a testosterona livre ao se ligar fortemente à SHBG."
+  },
+  {
+    "canonical_name": "Hormona da Tiróide T3",
+    "aliases": ["Cytomel", "Liotironina"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 1.0,
+    "default_unit": "mcg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Forma ativa da hormona tiroideia. Aumenta o metabolismo basal."
+  },
+  {
+    "canonical_name": "Hormona da Tiróide T4",
+    "aliases": ["Synthroid", "Levotiroxina"],
+    "category": "hormone",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": 7.0,
+    "default_unit": "mcg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Pró-hormona tiroideia. Conversão periférica lenta em T3."
+  },
+  {
+    "canonical_name": "Glandula Adrenal Extrato",
+    "aliases": ["Adrenal Glandular"],
+    "category": "supplement",
+    "administration_routes": ["oral"],
+    "estimated_half_life_days": null,
+    "default_unit": "mg",
+    "common_frequency_reference": "Diário",
+    "structured_notes": "Utilizado em medicina integrativa para suporte ao cansaço adrenal."
+  },
+  {
+    "canonical_name": "Vitamina D3",
+    "aliases": ["Colecalciferol"],
+    "category": "supplement",
+    "administration_routes": ["oral", "intramuscular"],
+    "estimated_half_life_days": 15.0,
+    "default_unit": "UI",
+    "common_frequency_reference": "Diário ou Semanal",
+    "structured_notes": "Hormona esteroide essencial para imunidade e produção de testosterona."
+  }
+]
