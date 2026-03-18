@@ -290,7 +290,7 @@ export default function Landing() {
 
           <motion.h1 variants={fade} custom={1}
             className="text-[48px] md:text-[64px] font-bold tracking-[-1px] leading-[1.1] mb-6 text-[#1D1D1D] whitespace-pre-line">
-            {t('landing.hero.title')}
+            TESTE SYNC ENZO 🚀
           </motion.h1>
 
           <motion.p variants={fade} custom={2}

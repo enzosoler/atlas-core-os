@@ -1,29 +1,40 @@
+const BRAND_BLUE = '#1B3A6B';
+
 /**
- * AtlasCoreLogoSVG
- * variant="light" → fundo branco, ícone azul (#1B3A6B) — para headers em fundo claro
- * variant="dark"  → fundo azul (#1B3A6B), ícone branco — para dark mode / splash / fundo escuro
- * variant="auto"  → usa CSS media query via currentColor para adaptar automaticamente
+ * variant="light" → ícone azul para fundos claros
+ * variant="dark"  → tile azul com ícone branco para splash/app icon/fundos escuros
  */
-export default function AtlasCoreLogoSVG({ width = 24, height = 24, className = "", variant = "light" }) {
-  const bg = variant === "dark" ? "#1B3A6B" : "white";
-  const fg = variant === "dark" ? "white" : "#1B3A6B";
-  const rectFill = variant === "dark" ? "#1B3A6B" : "white";
+export default function AtlasCoreLogoSVG({ width = 24, height = 24, className = '', variant = 'light' }) {
+  const stroke = variant === 'dark' ? '#FFFFFF' : BRAND_BLUE;
 
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 100 100"
+      viewBox="0 0 128 128"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      aria-hidden="true"
     >
-      <rect width="100" height="100" fill={bg} />
-      <line x1="50" y1="10" x2="10" y2="90" stroke={fg} strokeWidth="10" strokeLinecap="round" />
-      <line x1="50" y1="10" x2="90" y2="90" stroke={fg} strokeWidth="10" strokeLinecap="round" />
-      <line x1="26" y1="63" x2="74" y2="63" stroke={fg} strokeWidth="10" strokeLinecap="round" />
-      <rect x="36" y="56" width="28" height="14" fill={rectFill} />
-      <circle cx="50" cy="63" r="7.5" fill={fg} />
+      {variant === 'dark' && (
+        <rect x="0" y="0" width="128" height="128" rx="28" fill={BRAND_BLUE} />
+      )}
+
+      <path
+        d="M6 74H24L38 46L50 96L60 22L74 96L88 74H102L114 62"
+        stroke={stroke}
+        strokeWidth="8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M92 34L114 42L106 62"
+        stroke={stroke}
+        strokeWidth="8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }

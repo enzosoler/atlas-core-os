@@ -1,0 +1,17 @@
+{
+  "name": "Atlas Core",
+  "short_name": "Atlas Core",
+  "description": "Treino, nutricao, exames e progresso em um sistema conectado.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B3A6B",
+  "theme_color": "#1B3A6B",
+  "icons": [
+    {
+      "src": "/logo-dark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

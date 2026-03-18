@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { base44 } from '@/api/base44Client';
-import { Activity, Loader2, BarChart3, Dumbbell, FlaskConical, Brain } from 'lucide-react';
+import AtlasCoreLogoSVG from '@/components/AtlasCoreLogoSVG';
+import { Loader2, BarChart3, Dumbbell, FlaskConical, Brain } from 'lucide-react';
 
 const FEATURES = [
   { icon: Dumbbell,    text: 'Treino e dieta em um só lugar' },
@@ -45,9 +46,7 @@ export default function Auth() {
       <div className="hidden lg:flex flex-col justify-between w-[440px] shrink-0 bg-[#111827] p-10">
         {/* Logo */}
         <Link to="/Landing" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity w-fit">
-          <div className="w-8 h-8 rounded-lg bg-[#3B82F6] flex items-center justify-center shrink-0">
-            <Activity className="w-[17px] h-[17px] text-white" strokeWidth={2.5} />
-          </div>
+          <AtlasCoreLogoSVG width={32} height={32} variant="dark" className="shrink-0" />
           <span className="text-[16px] font-bold text-white tracking-tight">Atlas Core</span>
         </Link>
 
@@ -88,9 +87,7 @@ export default function Auth() {
 
         {/* Mobile logo */}
         <Link to="/Landing" className="lg:hidden flex items-center gap-2 mb-10 hover:opacity-75 transition-opacity">
-          <div className="w-8 h-8 rounded-lg bg-[#3B82F6] flex items-center justify-center shrink-0">
-            <Activity className="w-[17px] h-[17px] text-white" strokeWidth={2.5} />
-          </div>
+          <AtlasCoreLogoSVG width={32} height={32} variant="light" className="shrink-0" />
           <span className="text-[16px] font-bold text-[#111827] tracking-tight">Atlas Core</span>
         </Link>
 
